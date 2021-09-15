@@ -1,0 +1,6 @@
+Trong quá trình Full Request project giữa các member sẽ thường bị conflict.
+-Đúng theo tên của nó "gitignore" nó sẽ tự liệt kê những file hay folder mà mình không muốn bị parse khi sử dụng với git.Khi tạo một file mới vào git, git sẽ kiểm tra và sẽ tự bỏ qua các file không cần thiết
+-Tránh tốn kém tài nguyên server lưu trữ project trong quá trình build project các file tự sinh ra.
+-Không những vậy sẽ tránh việc không thể build được project khi checkout về máy tính của thành viên khác.
+-> không sợ bị conflict
+-> tránh gây ra code config
